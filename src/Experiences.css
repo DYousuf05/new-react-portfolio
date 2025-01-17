@@ -1,0 +1,47 @@
+#subheader {
+    color: black;
+    text-align: center;
+}
+
+#ck {
+    background-color: black;
+
+    width: 100px;
+}
+
+#efk, #prl {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 100px;
+}
+
+
+.experience {
+    display: flex;
+    margin-bottom: 1.5em;
+
+}
+
+.experience > div:first-child {
+    flex-shrink: 0; /* Prevent the image container from shrinking */
+}
+
+.desc {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 3em;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 3px;
+    color: white;
+}
+
+.cardHeader {
+    font-weight: 100;
+}
+
+.experiences {
+    display: flex;
+    flex-wrap: wrap;
+}

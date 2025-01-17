@@ -1,0 +1,93 @@
+
+.pageContents {
+    margin: 0;
+    padding: 0;
+}
+
+.pageContent {
+    margin: 5px;
+    font-weight: 100;
+    font-size: 1.25em;
+}
+
+.TitleImg {
+    width: 25%;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.39);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    margin-top: 10px;
+}
+
+h5, h6, footer {
+    color: darkgray;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    position: sticky;
+    top: 50px;
+}
+
+.Column {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 3px 5px 15px;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    padding: 50px;
+}
+
+
+#TitleLabels {
+    background-color: #062b3b;
+}
+
+#TitleProfile {
+    background-color: #0b4c68;
+}
+
+.buttonIcon {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.icons a:nth-child(n+3) .buttonIcon {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.buttonIcon:hover {
+    color: #607dff;
+    transition: color .2s;
+    cursor:pointer;
+}
+
+.resumeBtn {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-width: 2px;
+    max-width: 100%; /* Prevent overflow */
+}
+
+.resumeBtn:hover {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+
+
+
+
